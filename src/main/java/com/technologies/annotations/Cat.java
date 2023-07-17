@@ -9,6 +9,9 @@ public class Cat {
         this.name = name;
         this.age = age;
     }
+    public Cat(String name){
+        this.name = name;
+    }
 
     public void talk (){
         System.out.println("meow !");
