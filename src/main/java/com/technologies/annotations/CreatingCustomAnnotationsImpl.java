@@ -14,6 +14,12 @@ public class CreatingCustomAnnotationsImpl {
             System.out.println("Very important is not present");
         }
 
+        //THIS LOOPS OVER THE METHODS OF THE CAT CLASS AND INVOKES/PRINTS OUT THE METHOD IMPLEMENTATION WITH THE @RUNIMMEDIATELY ANNOTATION
+        for (Method method: cat.getClass().getDeclaredMethods()){
+            if (method.isAnnotationPresent(RunImmediately.class)){
+                method.invoke(cat);
+            }
+        }
 
 
     }
