@@ -9,6 +9,7 @@ public class Cat {
         this.name = name;
     }
 
+    @RunImmediately
     public void talk (){
         System.out.println("meow !");
     }
