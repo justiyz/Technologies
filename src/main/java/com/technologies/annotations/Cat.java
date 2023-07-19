@@ -1,7 +1,9 @@
 package com.technologies.annotations;
 
-@VeryImportant //custom annotation
+@CustomAnnotationForClassesAndMethods //custom annotation
 public class Cat {
+
+    @CustomAnnotationForFields
     String name;
     int age;
 
@@ -9,7 +11,7 @@ public class Cat {
         this.name = name;
     }
 
-    @RunImmediately
+    @CustomAnnotationForMethods
     public void talk (){
         System.out.println("meow !");
     }
