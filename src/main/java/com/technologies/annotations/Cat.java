@@ -7,15 +7,16 @@ public class Cat {
     String name;
     int age;
 
-    public Cat(String name){
+    public Cat(String name) {
         this.name = name;
     }
 
     @CustomAnnotationForMethods
-    public void talk (){
+    public void talk() {
         System.out.println("meow !");
     }
-    public void eat(){
+
+    public void eat() {
         System.out.println("Munch !");
     }
 }
