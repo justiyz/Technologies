@@ -5,7 +5,7 @@ public class CustomExceptions {
         validateAge(3);
     }
 
-    private static int validateAge(int age) throws AgeLessThanZeroException {
+    private static void validateAge(int age) throws AgeLessThanZeroException {
         if (age < 0){
             throw new AgeLessThanZeroException();
         }
