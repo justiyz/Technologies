@@ -1,7 +1,7 @@
 package com.technologies.annotations;
 
 @CustomAnnotationForClassesAndMethods //custom annotation
-public class Cat {
+class Cat {
 
     @CustomAnnotationForFields
     String name;

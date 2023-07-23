@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 @Slf4j
-public class CreatingCustomAnnotationsImpl {
+class CreatingCustomAnnotationsImpl {
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
         Cat cat = new Cat("Billy");
 
