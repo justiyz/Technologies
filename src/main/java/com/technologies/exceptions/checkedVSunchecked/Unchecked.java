@@ -5,13 +5,16 @@ public class Unchecked {
 
     public static void main(String[] args) {
 
-        printLength("myFile.txt");
+        String name = null;
+        printLength(name);
     }
 
-    //AN UNCHECKED EXCEPTION ARE EXCEPTIONS THAT JAVA MAKES YOU DEAL WITH AT COMPILE TIME.
-
-    private static void printLength(String s){
-        //TO HANDLE AN UNCHECKED EXCEPTION, YOU EITHER USE A TRY-CATCH BLOCK OR YOU DECLARE THAT YOU THROW IT WITH A "THROWS" STATEMENT
+    private static void printLength(String s) {
+        try {
+            System.out.println(s.length());
+        } catch (NullPointerException npe) {
+            System.out.println("String cannot be null");
+        }
 
     }
 }
