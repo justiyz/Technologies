@@ -2,7 +2,7 @@ package com.technologies.thread;
 
 //There are two ways to achieve multi-threading
 //The first way is to extend the Thread class and override the run method which is done below
-public class MultiThreadingExtendsThread extends Thread{
+class MultiThreadingExtendsThread extends Thread{
 
     private final int threadNumber;
 

@@ -1,6 +1,6 @@
 package com.technologies.thread;
 
-public class MultiThreadingImpl {
+class MultiThreadingImpl {
 
     public static void main(String[] args) {
 
