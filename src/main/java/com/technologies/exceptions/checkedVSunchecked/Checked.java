@@ -3,7 +3,7 @@ package com.technologies.exceptions.checkedVSunchecked;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class Checked {
+class Checked {
     public static void main(String[] args) {
 
         readfile("myFile.txt");

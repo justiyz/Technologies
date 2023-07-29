@@ -1,7 +1,7 @@
 package com.technologies.exceptions.checkedVSunchecked;
 
 
-public class Unchecked {
+class Unchecked {
 
     public static void main(String[] args) {
 
